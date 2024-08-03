@@ -1,11 +1,11 @@
 # BACKSCATTERING-REMOVAL
-Given image is divided into reflectance and illumination components.
-From the illumiation compoenent background light and transmission map are estimated.
+1. Given image is divided into reflectance and illumination components.
+2. From the illumiation compoenent background light and transmission map are estimated.
   - transmission map is obtained by refinement and enhancement on each color channel
-Reflectance component is color corrected to prevent color distortion.
-At last illuminance and reflectance component are fused to give output image.
+3. Reflectance component is color corrected to prevent color distortion.
+4. At last illuminance and reflectance component are fused to give output image.
   - fusion process is carried out by taking gaussian and laplacian filters on the weights of illuminance and reflectance compoenents obtained.
-For more information  refer:
+5. For more information  refer:
 @misc{
 	10356_68950,
 	author = {Hao Zhang},
